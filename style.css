@@ -314,3 +314,94 @@ body{
     margin: 0;
     width: 30%;
 }
+@media screen and (min-width: 900px) {
+    h1{
+        font-size: 6rem;
+        position: unset;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    header img{
+        margin: 0;
+        width: 10rem;
+        float: unset;
+        padding: 2px;
+        position: unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a{
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a.voorstelling{
+        font-size: 3rem;
+    }
+    voorstelling p {
+        font-size: 3rem;
+    }
+    ul{
+        width: auto;
+        float: unset;
+        margin-top: 8px;
+
+    }
+    ul.li {
+        display: inline-block;
+        padding: 15px 30px;
+    }
+    h2{
+        font-size: 4rem;
+        padding-bottom: 3rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    p{
+        font-size: 3rem;
+    }
+    .inleiding{
+        display: unset;
+        width: 100%;
+    }
+    .dropdown{
+        font-size: 3.5rem;
+        width: 35rem;
+        text-align: center;
+    }
+    .dropdown .dropdown-content .dropdown-content-list{
+        width: 35rem;
+    }
+    .insta{
+        padding-bottom: 0;
+    }
+
+    .insta img{
+        width: 10rem;
+    }
+    .insta{
+        display: unset;
+        margin-bottom: 6rem;
+    }
+    .insta div{
+        padding-bottom: 5rem;
+    }
+    .insta a{
+        font-size: 3.7rem;
+    }
+    .insta p{
+        font-size: 4rem;
+    }
+    .voorstelling{
+        border: unset;
+        display: unset;
+    }
+    .voorstelling button{
+        width: border-box;
+     }
+}
