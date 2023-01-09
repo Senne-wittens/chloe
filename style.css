@@ -314,7 +314,11 @@ body{
     margin: 0;
     width: 30%;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 700px) {
+=======
+@media screen and (min-width: 800px) {
+>>>>>>> 19bbdcda8a6a829be65aa79fe3322a710c441e2c
     h1{
         font-size: 6rem;
         position: unset;
