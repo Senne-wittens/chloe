@@ -400,8 +400,19 @@ body{
     .voorstelling{
         border: unset;
         display: unset;
+        padding-bottom: 5rem;
+        font-size: 3.5rem;
+
     }
     .voorstelling button{
         width: border-box;
+        width: 20rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 3rem;
      }
+    form{
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
 }
