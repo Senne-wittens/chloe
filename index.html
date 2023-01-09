@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="nl">
 <head>
-  
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <title>home</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
+
+    <header>
+        <img src="images/moon.png" alt="logo"><img/>
+        <H1></H1>
+    <nav>
+        <h1>Voor jou zou ik de maan blussen</h1>
+        <ul>
+            <li><a class="current" href="Index.html">Chloë</a> </li>
+        </ul>
+    </nav>
+    </header>
 <body>
-<h1> Welkom</h1>
-<h2>kies hier je favoriete hotel</h2>
+<main class="Homepagina">
+<article class="inleiding">
+    <section class="groepsfoto">
+        <H2 class="intext">Kies hier een restaurant om te gaan dineren op valentijn <3</H2>
+<!--        <img src="Images/graysquare.png" alt="foto"><img/>-->
+    </section>
+
+    <section class="voorstelling">
+        <form
+                action="https://formspree.io/f/mzbqbkoe"
+                method="POST"
+        >
+            <select name = "dropdown" class="dropdown">
+                <option value = "Ristorante Guzzi" selected>Ristorante Guzzi</option>
+                <option value = "wijnbistro Convento" >wijnbistro Convento</option>
+                <option value = "Nirvana Kitchen">Nirvana Kitchen</option>
+            </select>
+            <button class="btn btn-primary mt-2" type="submit">Send</button>
+        </form>
+    </section>
+</article>
+    <article class="insta">
+        <section>
+        <div class="rechts"><p>Ristorante Guzzi</p>
+            <a href="https://www.ristoranteguzzi.be/nl/home">read more</a>
+            <img src="images/guzzi.png"  alt="guzzi">
+        </div>
+
+            <div class="links">
+                <p>wijnbistro Convento</p>
+                <a href="https://www.wijnbistro.convento.be">read more</a>
+                <img src="images/convento" class="convento">
+            </div>
+            <div class="rechts">
+                <p> Nirvana Kitchen</p>
+                <a href="http://nirvanakitchenleuven.be/menu/">read more</a>
+                <img src="images/nirvana.png" alt="wereld">
+            </div>
+        </section>
+    </article>
+
+</main>
+<!--<footer>
+    <address>made by Senne Wittens</address><time datetime="2021">2021</time>
+</footer>-->
 </body>
 </html>
