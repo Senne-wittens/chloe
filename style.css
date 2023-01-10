@@ -316,6 +316,37 @@ body{
     margin: 0;
     width: 30%;
 }
+.tekst h3{
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    border-bottom-style: solid;
+    border-color: black;
+    margin-bottom: 9rem;
+}
+.datum{
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 100%;
+    color: #537D8D;
+}
+.plaats{
+    display: block ruby;
+    font-size: 2.5rem;
+    text-align: right;
+    padding-right: 1rem;
+}
+.moments{
+    font-size: 5rem;
+    padding-bottom: 10rem;
+}
+.moment{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
 @media screen and (min-width: 900px) {
     h1{
         font-size: 6rem;
@@ -422,11 +453,34 @@ body{
         margin-left: auto;
         margin-right: auto;
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 35% 65%;
     }
-    .tekst{
-        height: fit-content;
+    .momentimg img{
+        width: 100%;
+    }
+    .moments{
+        font-size: 5rem;
+        padding-bottom: 10rem;
+    }
+
+    .tekst h3{
+        font-size: 3.5rem;
+        padding-bottom: 3rem;
         border-bottom-style: solid;
         border-color: black;
+    }
+    .datum{
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 100%;
+        color: #537D8D;
+    }
+    .plaats{
+        display: block ruby;
+        font-size: 2.5rem;
+        text-align: right;
+    }
+    .plaats img{
+        width: 1.3rem;
     }
 }
