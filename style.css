@@ -58,14 +58,14 @@ ul{
     font-size: 1rem;
 }
 .insta img{
-    width: 3rem;
+    width: 7rem;
 }
 .links img{
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
 }
 .links a{
-    padding-left: 5rem;
+    padding-left: 0;
 }
 .bla{
     display: grid;
@@ -199,14 +199,16 @@ h3{
     padding-left: 3rem;
 }
 .rechts{
+    display: block;
     text-align: right;
     margin-left: 8rem;
     width: 80%;
 }
 .links{
     text-align: left;
-    margin-left: 6rem;
+    margin-left: 0;
     width: 80%;
+    display: block;
 }
 section a{
     color: #FCE181;
@@ -382,10 +384,10 @@ body{
     }
 
     .insta img{
-        width: 10rem;
+        width: 40rem;
     }
     .insta{
-        display: unset;
+        display: block;
         margin-bottom: 6rem;
     }
     .insta div{
@@ -414,5 +416,17 @@ body{
     form{
         padding-bottom: 5rem;
         padding-top: 5rem;
+    }
+    .moment{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .tekst{
+        height: fit-content;
+        border-bottom-style: solid;
+        border-color: black;
     }
 }
